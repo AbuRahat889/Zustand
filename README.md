@@ -1,6 +1,6 @@
-# 🧑‍🎓 Student Management App
+# 🧑‍🎓  Practics Zustand (
 
-A modern Next.js app using Zustand and React Hook Form to manage a list of students. You can add and remove students, with data persisted in localStorage using Zustand's `persist` middleware.
+A modern **Next.js** application that uses **Zustand** for state management and React Hook Form to manage a list of students. You can add and remove students, with data persisted in localStorage using Zustand's `persist` middleware.
 
 ---
 
