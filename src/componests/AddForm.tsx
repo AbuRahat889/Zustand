@@ -25,10 +25,6 @@ const AddForm = () => {
   const addStudent = useStudentStore((state) => state.addStudent);
 
   const onSubmit = async (data: any) => {
-    if (!data.name) {
-      alert("Please enter a name");
-      return;
-    }
     const generatedId = Math.ceil(Math.random() * 10000);
     // Call the addStudent function with the new student data
     addStudent({
